@@ -1,37 +1,38 @@
-#!/b**/bash
+#!/bin/bash
 
-# ========================**====================
-# Linux Comm**ds Reference - Sunny's Cheat Shee**# ===============================**=============
+# ==============================================
+# Linux Commands Reference - Sunny's Cheat Sheet
+# ==============================================
 
-echo "============**============================"
-ech**"System Health Check Script"
-echo**=================================**======="
+echo "=========================================="
+echo "System Health Check Script"
+echo "=========================================="
 
-# Check current directo**
+# Check current directory
 echo "Current Directory:"
 pwd
 
-#**ist files
+# List files
 echo ""
-echo "Files in **rrent directory:"
+echo "Files in current directory:"
 ls -la
 
-# Check**isk space
+# Check disk space
 echo ""
-echo "Disk Spac**"
+echo "Disk Space:"
 df -h
 
 # Check memory usage
-ech**""
+echo ""
 echo "Memory Usage:"
 free -h
 
-**Check running processes (top 5)
-e**o ""
+# Check running processes (top 5)
+echo ""
 echo "Top 5 Processes:"
-ps a** --sort=-%cpu | head -6
+ps aux --sort=-%cpu | head -6
 
 echo ""
-**ho "=============================**==========="
-echo "Health check c**plete!"
-echo "===================**====================="
+echo "=========================================="
+echo "Health check complete!"
+echo "=========================================="
