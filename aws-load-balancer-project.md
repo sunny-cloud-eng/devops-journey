@@ -28,6 +28,5 @@ Internet to ALB (public subnet) to EC2 app servers (private subnet) to RDS datab
 - Target Group and health check setup
 - High availability architecture design
 - Multi-AZ deployment
-<img width="1298" height="462" alt="image" src="https://github.com/user-attachments/assets/11ccfe94-ec48-45bb-a143-3b173dbedf28" />
 
 Completed: July 2026 | Part of my DevOps journey
