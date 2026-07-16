@@ -30,4 +30,7 @@ Learned Docker containers and built my own custom Docker image running a web ser
 - Building custom images
 - Port mapping and container lifecycle
 
+<img width="975" height="484" alt="image" src="https://github.com/user-attachments/assets/8a2fb461-782c-47fa-b305-c30954ea0152" />
+
+
 Completed: July 2026 | Part of my DevOps journey
