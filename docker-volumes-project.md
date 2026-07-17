@@ -35,4 +35,7 @@ A container is like a hotel room (temporary); a volume is like your suitcase (da
 - Data persistence across container lifecycle
 - Volume usage in Docker Compose
 
+<img width="975" height="493" alt="image" src="https://github.com/user-attachments/assets/97169b8a-6a51-4cef-932d-67e1de4f0058" />
+
+
 Completed: July 2026 | Part of my DevOps journey
