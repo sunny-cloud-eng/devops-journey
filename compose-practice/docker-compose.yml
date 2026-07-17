@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  web:
+    image: nginx
+    ports:
+      - "8080:80"
+
+  database:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: sunnypassword
+      MYSQL_DATABASE: shopdb
