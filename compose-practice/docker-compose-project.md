@@ -27,5 +27,6 @@ Fixed a YAML parsing error (mapping key image already defined) caused by incorre
 - Multi-container orchestration
 - Service networking and environment configuration
 - YAML troubleshooting
+<img width="975" height="490" alt="image" src="https://github.com/user-attachments/assets/911fbc70-ea27-4e1a-af2e-6d48ab2849c4" />
 
 Completed: July 2026 | Part of my DevOps journey
