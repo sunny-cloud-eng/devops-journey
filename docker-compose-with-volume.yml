@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  database:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: sunnypassword
+      MYSQL_DATABASE: shopdb
+    volumes:
+      - db-data:/var/lib/mysql
+
+volumes:
+  db-data:
