@@ -32,4 +32,7 @@ Set up a Kubernetes cluster using kind in Codespaces and deployed a self-healing
 - Self-healing and scaling
 - Declarative infrastructure with YAML
 
+<img width="975" height="497" alt="image" src="https://github.com/user-attachments/assets/a86d777b-1b1c-439b-bd59-a960f5dcb127" />
+
+
 Completed: July 2026 | Part of my DevOps journey
