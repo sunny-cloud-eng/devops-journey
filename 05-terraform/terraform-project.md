@@ -31,4 +31,8 @@ IaC makes infrastructure repeatable, version-controlled, reviewable, and auditab
 - Infrastructure as Code principles
 - Version control for infrastructure
 
+
+<img width="975" height="485" alt="image" src="https://github.com/user-attachments/assets/a541ba70-5bc4-4d4d-b51c-cd55af77c545" />
+
+
 Completed: July 2026 | Part of my DevOps journey
