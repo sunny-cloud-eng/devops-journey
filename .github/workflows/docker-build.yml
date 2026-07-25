@@ -1,0 +1,19 @@
+name: Docker Build Pipeline
+
+on: [push]
+
+jobs:
+  docker-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: |
+          cd 03-docker
+          docker build -t sunny-web-app .
+          echo "Docker image built successfully!"
+
+      - name: List Docker images
+        run: docker images
