@@ -1,0 +1,21 @@
+name: Sunny First CI Pipeline
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Say hello
+        run: echo "Hello from Sunny CI/CD pipeline!"
+
+      - name: Show repository files
+        run: ls -la
+
+      - name: Check for markdown files
+        run: |
+          echo "Project documentation files:"
+          find . -name "*.md" -type f
