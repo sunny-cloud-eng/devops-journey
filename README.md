@@ -1,5 +1,6 @@
 # 🚀 Sunny's DevOps Journey
 https://github.com/sunny-cloud-eng/devops-journey/actions/workflows/uptimeguard-ci.yml/badge.svg
+
 Welcome to my hands-on journey from **Senior Cloud Engineer** to a global **DevOps / SRE / Cloud** role in **New Zealand** 🇳🇿
 
 Every folder documents real, hands-on projects I built and troubleshot myself — not just theory.
