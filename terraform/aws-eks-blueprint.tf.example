@@ -1,0 +1,24 @@
+# AWS EKS Blueprint (portfolio example - not applied to avoid cost)
+# This demonstrates how UptimeGuard would run on AWS EKS in production.
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+# A VPC for the cluster
+resource "aws_vpc" "uptimeguard_vpc" {
+  cidr_block = "10.0.0.0/16"
+  tags = {
+    Name = "uptimeguard-vpc"
+  }
+}
+
+# In production, this would include:
+# - Public and private subnets across multiple AZs
+# - An EKS cluster (aws_eks_cluster)
+# - Node groups (aws_eks_node_group)
+# - IAM roles for the cluster and nodes
+# - Security groups
+#
+# This mirrors the 3-tier, highly-available architecture
+# I designed manually in my AWS learning (Days 4-9).
