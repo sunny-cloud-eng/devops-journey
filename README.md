@@ -7,9 +7,6 @@ Welcome to my hands-on journey from **Senior Cloud Engineer** to a global **DevO
 Every folder documents real, hands-on projects I built and troubleshot myself — not just theory.
 
 ---
-
-## 📂 Repository Structure
-
 ## 📂 Repository Structure
 
 | Folder | What's Inside |
